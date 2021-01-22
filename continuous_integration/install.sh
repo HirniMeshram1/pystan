@@ -25,4 +25,4 @@ source activate test-environment
 python -c "import numpy"
 
 # run quietly due to travis ci's log limit
-python setup.py -q install
+python3 setup.py -q install
