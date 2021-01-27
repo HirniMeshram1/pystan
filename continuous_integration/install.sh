@@ -17,6 +17,7 @@ if [[ `uname -m` == 'aarch64' ]]; then
 fi
 if [[ `uname -m` == 'x86_64' ]]; then 
     wget https://repo.continuum.io/miniconda/Miniconda3-4.2.12-Linux-x86_64.sh -O miniconda.sh; 
+    chmod +x miniconda.sh
     ./miniconda.sh -b 
 fi
 export PATH=$HOME/miniconda3/bin:$PATH
