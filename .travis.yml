@@ -1,12 +1,6 @@
 language: c
 dist: xenial
-group: edge
-dist: focal
-virt: vm
 sudo: required
-arch:
-  - amd64
-  - arm64-graviton2
 branches:
   only:
   - master
