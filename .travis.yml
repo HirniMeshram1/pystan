@@ -20,8 +20,8 @@ services:
 before_install:
   - git submodule update --init --recursive
 compiler:
-  - clang
-  #- gcc
+  #- clang
+  - gcc
 env:
   - TRAVIS_PYTHON_VERSION=3.9
 notifications:
